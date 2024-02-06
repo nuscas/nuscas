@@ -22,6 +22,11 @@
 			"path": "cz-conventional-changelog"
 		}
 	},
+	"husky": {
+		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+		}
+	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.6.0",
 		"@commitlint/config-conventional": "^18.6.0",
