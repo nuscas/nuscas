@@ -1,0 +1,12 @@
+{
+  "[html][css][scss][javascript][javascriptreact][typescript][typescriptreact][markdown][mdx][json][jsonc][yaml][graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
